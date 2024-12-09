@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#adoption">Adopt a Pet</a></li>
+        <li><a href="#grooming">Grooming</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="javascript:void(0);" id="cart-icon">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Zylver's Kennel</h1>
+      <p>Where every woof is Welcome!</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Featured Products</h2>
+    <div class="product-list" id="product-list">
+      <div class="product-card 1">
+        <img src="pet food.webp" alt="Dog Food" class="product-image">
+        <h3 class="product-name">Premium Dog Food</h3>
+        <p class="product-description">High-quality nutrition for your furry friend.</p>
+        <p class="product-price">$29.99</p>
+        <button class="btn add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card 2">
+        <img src="cat toy.jpg" alt="Cat Toy" class="product-image">
+        <h3 class="product-name">Interactive Cat Toy</h3>
+        <p class="product-description">Keep your cat entertained for hours!</p>
+        <p class="product-price">$15.99</p>
+        <button class="btn add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card 3">
+        <img src="doge leash.jpg" alt="Dog Leash" class="product-image">
+        <h3 class="product-name">Durable Dog Leash</h3>
+        <p class="product-description">Strong and comfortable for daily walks.</p>
+        <p class="product-price">$19.99</p>
+        <button class="btn add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="adoption" class="section">
+    <h2>Adopt a Pet</h2>
+    <p>Find your new furry friend today!</p>
+    <div class="pet-list" id="pet-list">
+     <div class="Doggo-card 1">
+        <img src="Belgian Malinois.avif" alt="Dog breed" class="dog-image">
+        <h3 class="dog-name">Jam</h3>
+        <p class="dog-temperament">A four months female Belgian Malinois, lively little doggo that loves to play and bond. </p>
+        <p class="dog-price">₱75000</p>
+        <button class="btn add-to-cart">Add to Cart</button>
+      </div>
+      <div class="Doggo-card 2">
+        <img src="American pitbull.jpg" alt="Dog breed" class="dog-image">
+        <h3 class="dog-name">Maris</h3>
+        <p class="dog-temperament">A three months female American Pit Bull, friendly yet have strong willed nature. </p>
+        <p class="dog-price">₱65000</p>
+        <button class="btn add-to-cart">Add to Cart</button>
+      </div>
+        <div class="Doggo-card 1">
+          <img src="greatdane.jpg" alt="Dog breed" class="dog-image">
+          <h3 class="dog-name">Anthony</h3>
+          <p class="dog-temperament">A 5 months male Great Dane, if you want a gentle giant he is purfect for you. </p>
+          <p class="dog-price">₱150000</p>
+          <button class="btn add-to-cart">Add to Cart</button>
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="grooming" class="section">
+    <h2>Pet Grooming</h2>
+    <p>Our expert groomers will pamper your pet!</p>
+    <button class="btn">Book Grooming Appointment</button>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We care about pets and their owners. Our shop provides quality pet products and services for your furry companions. </p>
+    <p>Zylver's Kennel is a premier dog kennel specializing in breeding top-quality American Bully, Great Dane, Belgian Malinois, anc more. In addition to our breeding services, we also offer pet grooming, pet training and more to keep your furry friends looking their best. Named after the owner, Zylver's Kennel was founded in 2022 and is proudly located in Vigan City, locos Sur, Philippines.</p>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Have any questions? Reach out to us!</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </footer>
